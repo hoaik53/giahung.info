@@ -1,0 +1,143 @@
+/*    menuleft        */
+#menuleft ul li
+{
+    list-style: none;
+    line-height: 25px;
+    border-bottom: 1px solid #c1c1c1;
+}
+#menuleft ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #336699;
+    padding: 3px;
+}
+#menuleft .ui-accordion-content
+{
+    padding: 3px;
+}
+#menuleft h3 a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.paneltab
+{
+    margin-bottom: 25px;
+}
+.paneltab .ui-widget-content
+{
+    /*background-color: #F5F2EE;*/
+}
+.panel_item
+{
+   /*
+     border: 1px solid #A6C9E2;
+    */
+    cursor: pointer;
+    float: left;
+    height: 80px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+}
+.panel_item img
+{
+    height: 48px;
+    width: 48px;
+}
+.panel_item h3
+{
+    color: #666666;
+    font-size: 11px;
+}
+.adminform span.label
+{
+    display:inline-block;
+    width:200px;
+    padding: 9px 0;
+    font-weight: bold;
+    vertical-align: top;
+}
+.adminform input,.adminform select
+{
+    height: 25px;
+    vertical-align: middle;
+}
+.adminform div.label
+{
+    display:inline-block;
+    float:left;
+    width:15%;
+    *width:150px;
+}
+.adminform div.field
+{
+    display:inline-block;
+    float:left;
+    width:85%;
+    *width:500px;
+}
+.adminform .control
+{
+    padding-top:20px;
+    text-align: center;
+}
+.clearleft
+{
+    clear:left;
+}
+/** widget style **/
+.ui-widget-content h3.ui-widget-header
+{
+    margin: 0; 
+    padding: 0 0 0 20px; 
+    line-height: 30px;
+    text-align: left;
+}
+.ui-widget-content .ui-widget-body
+{
+    padding-left:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.gicon
+{
+    border: 1px solid #F1F1F1;
+    float: left;
+    padding: 3px;
+}
+/*******************************detail edit of category *************************************/
+.attribute
+{
+    float: left;
+    padding: 3px 5px;
+}
+.attribute input.button
+{
+    font-size: 10px;
+    height: 16px;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+.attribute span
+{
+    vertical-align: top;
+}
+.changepic
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+

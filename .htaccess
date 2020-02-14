@@ -1,0 +1,43 @@
+
+
+#Enable rewrite engine
+RewriteEngine On
+#RewriteBase
+
+#Ignore physical file/directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+######################Module##############################
+#Menu Products
+RewriteRule ^danh-muc-san-pham/([0-9]+)/([0-9]+)/([0-9]+)/([0-9]+).html$ ./?module=bp&found=$1&totalpage=$2&curpage=$3&pcatID=$4  [L]
+RewriteRule ^danh-muc-san-pham/([0-9]+)/([a-zA-z0-9\-]+).html$ ./?module=bp&pcatID=$1&title=$2
+RewriteRule ^danh-muc-san-pham.html$ /?module=bp [L]
+RewriteRule ^chi-tiet-san-pham/([0-9]+)/([0-9]+)/([a-zA-z0-9\-]+).html$ /?module=dp&pcatID=$1&artID=$2&title=$3
+
+#Menu Articles
+RewriteRule ^bai-viet/([0-9]+)/([a-zA-z0-9\-]+).html$ /?module=ba&acatID=$1&title=$2 [L]
+RewriteRule ^bai-viet/([0-9]+)/([0-9]+)/([0-9]+)/([0-9]+).html$ /?module=ba&found=$1&totalpage=$2&curpage=$3&acatID=$4 [L]
+#Detail Articles
+RewriteRule ^chi-tiet-bai-viet/([0-9]+)/([0-9]+)/([a-zA-z0-9\-]+).html$ /?module=da&acatID=$1&artID=$2&title=$3
+RewriteRule ^chi-tiet-bai-viet/([0-9]+)/([a-zA-z0-9\-]+).html$ /?module=da&artID=$1&title=$2
+
+########################## search ########################
+RewriteRule ^ket-qua-tim-kiem.html$ /?module=searchresults&object=search [L]
+#RewriteRule ^ket-qua-tim-kiem/([0-9]+)/([0-9]+)/([0-9]+)/([a-zA-z0-9\-]+).html$ ./?module=searchresults&found=$1&totalpage=$2&curpage=$3&product=$4 [L]
+RewriteRule ^ket-qua-tim-kiem/([0-9]+)/([0-9]+)/([0-9]+).html$ ./?module=searchresults&found=$1&totalpage=$2&curpage=$3[L]
+
+########################## Contact ########################
+RewriteRule ^thiet-ke.html$ /?module=photo [L]
+RewriteRule ^thiet-ke/([0-9]+)/([0-9]+)/([0-9]+)/([0-9]+).html$ /?module=photo&found=$1&totalpage=$2&curpage=$3 [L]
+RewriteRule ^chi-tiet-anh/([0-9]+)/([a-zA-z0-9\-]+).html$ ./?module=detailphoto&id=$1&title=$2
+
+RewriteRule ^lien-he.html$ /?module=contact [L]
+RewriteRule ^thong-tin-lien-he.html$ /?module=process&object=contact [L]
+
+RewriteRule ^(.*)gio-hang.php(.*) /modules/cart.php$2 [L]
+RewriteRule ^chi-tiet-gio-hang.html$ /?module=cart_detail [L]
+RewriteRule ^chi-tiet-gio-hang/xoa-gio-hang/([0-9]+).html$ /?module=cart_del&id=$1 [L]
+RewriteRule ^dat-hang-thanh-cong.html$ /?module=hoan-tat-dh [L]
+RewriteRule ^dat-hang.html$ /?module=order [L]
+RewriteRule ^dat-hang/thong-tin-don-hang.html$ ./?module=process&object=order [L]

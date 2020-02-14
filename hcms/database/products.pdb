@@ -1,0 +1,12 @@
+Danh sách sản phẩm
+
+Tên sản phẩm-title-text-60-none-no-none-none
+Nhóm sản phẩm-category-select_data-none-none-no-products_cat.name-products_cat.id
+Chi tiết sản phẩm-content-textarea-none-none-yes-none-none
+Giá sản phẩm-price-text-60-none-no-none-none
+Hình ảnh-image-imageonserver-60-none-yes-none-none
+Ngày đăng-log-time-none-none-yes-none-none
+Loại sản phẩm-avdproducts-select-none-none-no-avdproducts.type-avdproducts.id
+Cấp độ-level-select-none-none-no-level.name-level.level
+Ngôn ngữ-lang-select-none-none-no-languages.code-languages.id
+Trạng thái-active-select-none-none-no-active.status-active.id

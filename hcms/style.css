@@ -1,0 +1,465 @@
+/************************common css**************************/
+html,body,ul,li,a,div,table,th,td,tr
+{
+    margin: 0;
+    padding: 0;
+    font-family : Tahoma,Arial,Verdana;
+    font-size: 11px;
+}
+h3 {
+    font-size:13px;
+}
+img
+{
+    border: none;
+}
+/************************old css******************************/
+li {color:#000000; font-size : 11px; font-family : Tahoma,Verdana,Arial;
+	text-align: justify; line-height: 120%; margin: 0 0 0 12;}
+.briefcontent { text-align: justify; letter-spacing: 0; margin-left: 3;
+	margin-right: 0; margin-top: 0; margin-bottom: 0; font-size: 11px;
+	font-weight: normal;}
+.buttontext { text-align: center; letter-spacing: 0; margin-left: 3;
+	margin-right: 0; margin-top: 0; margin-bottom: -3; font-size: 11px;
+	font-weight: bold;}
+.bottomborder {border-bottom-style: solid; border-bottom-width:2; border-color: #FF0033;
+	border-top-style: none; border-right-style: none;
+	border-left-style: solid; border-left-width: 2;}
+.topmenu {color : #336699; margin: 9 0 -3 0 ;font-size : 12px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;text-align: center;}
+.item {color : #336699; margin: 12 0 0 0; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: center; line-height: 150%; cursor: pointer;}
+.form_table {border: 1px solid #DDDDDD; background-color: #F7F7F7;}
+.formtitle {color : #336699;margin-top : 3px;margin-bottom : 3px;
+	margin-left : 6px;margin-right : 0px;font-size : 12px;font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;text-align: justify;}
+.formindex {color:#000000;margin-top: 6px;margin-bottom : 0px;
+	margin-left : 3px;margin-right : 0px;font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;text-align: justify;line-height: 120%}
+.textindex {color:#FF0033;margin-top: 3px;margin-bottom : 3px;
+	margin-left : 0px;margin-right : 6px; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;text-align: right;
+	line-height: 120%}
+p {	color : #000000;margin-top : 5px;padding-bottom : 5px;
+	margin-bottom : 0px;margin-left : 10px;margin-right : 10px;
+	font-size : 11px;font-family : Tahoma,Verdana,Arial;
+	line-height : 150%;}
+p a {color : #336699;text-decoration: none;}
+p a:hover {color : #000000;}
+.normal {color : #000000; margin-top : 5px;	padding-bottom : 5px;
+	margin-bottom : 0px;	margin-left : 0px;	margin-right : 0px;
+	font-size : 12px;	font-family : Tahoma,Verdana,Arial;
+	line-height: 120%; text-align: justify;}
+.picturehint {color : #336699; margin-top : 0px;	padding-bottom : 0px;
+	margin-bottom : 0px;	margin-left : 0px;	margin-right : 3px;
+	font-size : 11px;	font-family : Tahoma,Verdana,Arial;
+	line-height: 100%;}
+.arttitle {color : #336699; margin-top : 5px;	padding-bottom : 5px;
+	margin-bottom : 0px;	margin-left : 0px;	margin-right : 10px;
+	font-size : 14px;	font-family : Tahoma,Verdana,Arial;
+	line-height: 100%; font-weight: bold;}
+.bigtitle {color: #000000; margin: 3 0 0 0; font-size: 12px;
+	font-family : Tahoma,Verdana,Arial; line-height: 100%;
+	font-weight: bold; text-align: center;}
+.grouptitle {color : #336699; margin-top : 5px;	padding-bottom : 6px;
+	margin-bottom : 0px;	margin-left : 6px;	margin-right : 0px;
+	font-size : 13px;	font-family : Tahoma,Verdana,Arial;
+	line-height: 100%; font-weight: bold;}
+.subtitle {color : #FF0033; margin-top : 5px;	padding-bottom : 5px;
+	margin-bottom : 0px;	margin-left : 0px;	margin-right : 10px;
+	font-size : 12px;	font-family : Tahoma,Verdana,Arial;
+	line-height: 100%; font-weight: bold;}
+.dark {color : #FFFFFF;	margin-top : 3px; padding-bottom : 0px;
+	margin-bottom : 0px;margin-left : 10px;margin-right : 10px;
+	font-size : 11px;font-family : Tahoma,Verdana,Arial;
+	line-height: 150%;}
+.scroll {color : #FFFFFF;margin-top : 0px;padding-bottom : 0px;
+	margin-bottom : 0px;font-size : 9px bold;font-family : Tahoma,Verdana,Arial;
+	align : center;}
+BODY{font-family: Tahoma,Verdana,Arial, sans-serif;font-size: 9px;color: #222222;margin: 0px;}
+.title{color : #000000;margin-top : 5px;padding-bottom : 5px;
+	margin-bottom : 0px;margin-left : 10px;margin-right : 10px;
+	font-size : 14px;font-family : Tahoma,Verdana,Arial;}
+.menubutton{border-style: solid;border-width: 1;border-color: #DDEEFF;
+	background: #1F4F7A;}
+TEXTAREA{width: 256px; height: 100px; font-family: Tahoma,Verdana, Arial; font-size: 12px;
+	border: 1px solid #D9D9D9;background-color: #F7F7F7;}
+.shortinput{ width: 100px; border: 1px solid #D9D9D9; background-color: #F7F7F7; }
+.standardinput{ width: 130px; border: 1px solid #D9D9D9; background-color: #F7F7F7; }
+.mediuminput{ width: 200px; border: 1px solid #D9D9D9; background-color: #F7F7F7; }
+.xmediuminput{ width: 250px; border: 1px solid #D9D9D9; background-color: #F7F7F7; }
+.longinput{ width: 300px; border: 1px solid #D9D9D9; background-color: #F7F7F7; }
+INPUT {border: 1px solid #DDDDDD; background-color: #F7F7F7; padding: 0 0 0 0;
+	font-family: Tahoma,Arial,Verdana; font-size: 11px; font-weight: bold;}
+SELECT {border: 1px solid #D9D9D9; background-color: #F7F7F7;
+	font-family: Tahoma,Verdana,Arial; font-size: 12px;}
+BUTTON{border: 1px solid #D9D9D9; background-color: #F7F7F7; cursor: pointer;}
+.imgframe {border-style:solid; border-width: 1; border-color: #336699;}
+.tdtitle{color : #336699; padding: 3px; font-size : 12px;
+	font-weight: bold; font-family : Tahoma,Verdana,Arial;}
+.tdtext{background-color: #FBFFFF;border-bottom: 1px solid #F1F1F1;color: #336699;font-family: Tahoma,Verdana,Arial;font-size: 11px;padding: 7px 0;}
+.flipFlopField {FONT-SIZE: 11px; WIDTH: 300px; FONT-FAMILY: Tahoma,Helvetica}
+.stitle {color : #FFFFFF; margin-top: 6px;margin-bottom : 3px;
+	margin-left : 6px; margin-right : 0px; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 100%;}
+.treetext {color : #336699; margin-top: 3px;margin-bottom : 3px;
+	margin-left : 6px; margin-right : 0px; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 100%;}
+.invisible{border: solid 0px #F4F6F4; background-color: ; font-size: 11px;
+	font-weight: bold; font-family: Tahoma; color: #336699; width: 500px}
+.filename {color : #336699; margin: 0 0 0 6; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 100%;}
+.filename1 {color : #336699; margin: 3 0 3 6; font-size : 10px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 100%;}
+.properties {color : #336699; margin: 3 0 3 0; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial; line-height: 100%;
+	text-align: center}
+.properties1 {color : #336699; margin: 3 0 3 3; font-size : 10px;
+	font-family : Tahoma,Verdana,Arial; line-height: 100%;
+	text-align: center}
+.button_off {border: solid 1px #F7F7F7; font-size: 10px; font-weight: bold;
+	font-family: Tahoma,Arial; color: #666666; padding: 0 3 0 3;}
+.button_over {border: solid 1px #336699; background-color: #DDEEFF; cursor: pointer;
+	font-size: 10px; font-weight: bold; font-family: Tahoma,Arial;
+	color: #666666; padding: 0 3 0 3;}
+.title0 {color : #FF3300; margin: 0 0 0 0; font-size : 16px;
+	font-family : Arial,Tahoma,Verdana;font-weight: bold;
+	text-align: left; line-height: 100%; cursor: pointer;}
+.title1 {color : #FFFFFF; margin: 6 0 0 0; font-size : 12px;
+	font-family : Tahoma,Arial,Verdana; font-weight: bold;
+	line-height: 100%; cursor: pointer;}
+.title2 {color : #FF6600; margin: 0 0 0 0; font-size : 12px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 100%; cursor: pointer;}
+.title3 {color : #FF6600; margin: 0 0 0 0; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;font-weight: bold;
+	text-align: left; line-height: 130%; cursor: pointer;}
+.title4 {color : #336699; margin: 0 0 0 0; font-size : 10px;
+	font-family : Tahoma,Verdana,Arial;font-weight: normal;
+	text-align: left; line-height: 130%; cursor: pointer;}
+.content {color:#000000; margin: 0 0 0 0; font-size : 12px;
+	font-family : Tahoma,Verdana,Arial;text-align: justify;
+	line-height: 150%; cursor: default;}
+.content1 {color:#000000; margin: 0 0 0 0; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;text-align: justify;
+	line-height: 150%; cursor: default;}
+.textindex {color:#336699; margin: 0 0 0 0; font-size : 11px;
+	font-family : Tahoma,Verdana,Arial; text-align: right;
+	line-height: 120%; cursor: pointer;}
+.itemrow1 {background-color: #FFFFFF;}
+.itemrow1_over {background-color: #DDEEFF;}
+.itemrow2 {background-color: #F7F7F7;}
+.itemrow2_over {background-color: #DDEEFF;}
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+.textfield2 {cursor: pointer;}
+/****************************new css added by hocvt************************************/
+#wrap_all
+{
+    margin: 5px;
+    padding: 0;
+}
+.fullwidth
+{
+
+}
+#logo
+{
+    background-color: #132081;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    height: 80px;
+    line-height: 70px;
+    padding-left: 0px;
+}
+#logo img
+{
+    
+}
+#topmenu
+{
+    background-color: #87B6D9;
+    height: 30px;
+    width: 100%;
+}
+#topmenu ul
+{
+    
+}
+#topmenu ul li
+{
+    float: left;
+    line-height: 30px;
+    list-style: none outside none;
+    padding: 0 5px;
+}
+#topmenu ul li a
+{
+    text-decoration: none;
+}
+#topmenu ul li a span
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#sysinfo
+{
+    height:30px;
+    line-height: 30px;
+    background-color: #F4F6F4;
+}
+#sysinfo span
+{
+    
+}
+#mainbody 
+{
+    background-color: #DFEFF9;
+    clear: both;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#mainbody #leftbody
+{
+    float: left;
+    left: 3px;
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+#mainbody #leftbody .menuleft
+{
+    position: absolute;
+}
+#show_hide_lmenu
+{
+    background: url("images/hide_lmenu.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 29px;
+    position: absolute;
+    right: -7px;
+    top: 1px;
+    width: 7px;
+    z-index: 1;
+    cursor: pointer;
+}
+#mainbody #rightbody
+{
+    clear: both;
+    margin: 0 3px 0 210px;
+    min-height: 500px;
+    padding: 0;
+}
+#breadcrumb
+{
+    /*
+     background: none repeat scroll 0 0 #F1F1F1;
+     */
+    line-height: 30px;
+    font-weight: bold;
+    color:#666;
+    padding-left:20px;
+}
+#breadcrumb a
+{
+    color:#666;
+}
+#contener
+{
+    
+}
+#contener .block
+{
+    overflow: auto;
+}
+.clear
+{
+    clear: both;
+}
+#logform
+{
+    margin: 30px auto 0;
+    padding-right: 200px;
+    width: 327px;
+    
+}
+#logform_top
+{
+    background: url("images/logform_top.png") no-repeat scroll left top transparent;
+    height: 29px;
+}
+#logform_middle
+{
+    background: url("images/logform_middle.png") repeat-y scroll left top transparent;
+    padding: 5px 33px;
+    text-align: left;
+    line-height: 25px;
+}
+#logform_middle span.label
+{
+    display: block;
+    font-weight: bold;
+}
+#logform_middle .cinput,#logform_middle select
+{
+    border: 2px solid #A8A8A8;
+    font-family: inherit;
+    margin-right: 4px;
+    padding: 3px;
+    width: 254px;
+    font-weight: bold;
+    font-size: 11px;
+}
+#logform_middle input.button
+{
+    margin-top:10px;
+    float: right;
+    display: block;
+}
+#logform_bottom
+{
+    background: url("images/logform_bottom.png") no-repeat scroll left top transparent;
+    height: 29px;
+}
+#topcontrol
+{
+    top:0;
+    left:0;
+}
+#topcontrol .showcontrol
+{
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/* This file was compressed using MbCompression library. http://blog.mironabramson.com*/  
+.hotNewsTitle1 
+{
+	font:bold 12px "Tahoma";
+	color:#303030;
+	text-decoration:none;
+	font-family:Tahoma;
+	background-color: #fff;
+	}
+ .hotNewsTitle1:hover
+ {
+ 	 color:#303030;
+	 background-color: #fff;
+ 	 }
+ .hotNewsTitle
+ {
+ 	 font:bold 12px "Tahoma";
+ 	 color:#303030;
+	 text-transform:uppercase;
+ 	 text-decoration:none;
+}
+.hotNewsTitle:hover
+ {color:#303030}
+ .hotNewsSapo
+ {
+ 	 line-height:140%;
+ 	 color:#000;
+ }
+ .hotNews1
+ {
+ 	 width: 708px;
+     float:left;
+    /* margin:0px 0px 10px 0px;
+     padding:0px 5px 0px 5px;*/
+     }
+
+.hotNewsItem1 
+{
+	/*padding:5px 5px 5px 5px;*/
+}
+.hotNewsItem1 img 
+	{
+		float:left;
+		/*margin:0 5px 5px 0;
+		padding:2px;*/
+		border: 1px solid #EEEEEE;
+	}
+	
+
+
+div.bottomList
+{
+	 position:relative;
+	 overflow:hidden;
+	 width: 708px;
+	 height:120px;
+	 background:transparent;
+	 }
+	 
+
+#bottomItem 
+{
+	position:absolute;
+	width:20000em;
+	clear:both;
+}
+	
+#bottomItem div 
+{
+	float:left;
+	cursor:pointer;
+}

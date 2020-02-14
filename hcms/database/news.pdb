@@ -1,0 +1,10 @@
+Danh muc bai viet
+
+Tiêu đề-title-text-60-none-no-none-none
+Nhóm tin-category-select_data-none-none-no-news_cat.name-news_cat.id
+Nội dung-content-textarea-none-none-yes-none-none
+Hình ảnh-image-imageonserver-60-none-yes-none-none
+Ngày đăng-log-time-none-none-yes-none-none
+Cấp độ-level-select-none-none-no-level.name-level.level
+Ngôn ngữ-lang-select-none-none-no-languages.code-languages.id
+Trạng thái-active-select-none-none-no-active.status-active.id

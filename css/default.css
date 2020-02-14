@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #c3c3c3;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background-attachment: fixed;
+}
+a{	text-decoration:none; color: #252525; font-size: 12px; }
+a:hover {color: #1178E4;}
+p{font-size: 12px;}
+font{font-size: 12px;}
+ul
+{
+    list-style:none;
+    display:block;
+}
+img{ border: none;}
+h2{  color: #fff; font-weight: bold; }
+#body{
+	width: 1000px;
+	margin: 0 auto;
+}
+#wearpe{
+	width: 1000px;
+	float: left;
+}
+/******* Header *********/
+#header{
+	float: left;
+	background-color: #fff;
+	width: 1000px;
+	position: relative;
+	text-align: center;
+}
+#header div.default_head_banner{ 
+	float: left;
+	width: 1000px;
+}
+/******* Main *********/
+#main {
+	float: left;
+	background-color: #fff;
+	width: 1000px;
+	text-align: center;
+}
+#main div.title, div.city, div.product_default {
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+}
+#main div p{
+	color: #0033ff;
+	font-weight: bold;
+}
+#main div.title p a{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+#main div.city  a{
+	color: #0033ff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding: 0 10px;
+}
+#main div.city  a:hover{
+	color: #1178E4;
+	}
+#main p.buyhome {
+	float: left;
+	padding:0 300px;
+	padding-top: 10px;
+	width: 400px;
+}
+#main p.buyhome  span{
+	float: left;
+	padding-bottom: 15px;
+	width: 400px;
+	border-bottom: 1px #1178E4 solid;
+}
+#main p.buyhome a{
+	color: #0033ff;
+	font-size: 14px;
+	font-weight: bold;
+}
+#main p.buyhome a:hover{
+	color: #1178E4;
+	}
+#main div.product_default{
+	width: 620px;
+	float: left;
+	padding: 25px 190px 20px 190px;
+}
+#main div.product_default ul li{
+	width: 132px;
+	float: left;
+	text-align: center;
+	padding: 0 12px 0 11px;
+	height: 115px;
+}
+#main div.product_default ul li a img{
+	width: 115px;
+	height: 65px;
+	padding: 1px;
+	box-shadow: 2px 2px 6px 0px gray;
+	-webkit-box-shadow: 2px 2px 8px gray;
+	opacity: 1;
+}
+#main div.product_default ul li a{
+	width: 124px;
+	float: left;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+/*******End Main *********/
+#footer{
+	width: 995px;
+	float: left;
+	text-align: center;	
+	background: #fff;
+	padding-left: 5px;
+}
+#footer div{
+	width: 990px;
+	height: 50px;
+	padding-top: 10px;
+	background: #3284fe;
+}
+#footer p{
+	line-height: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+#pt{
+ float: right;
+ clear:both;
+ margin: 0px 20px  0px 0;
+ font-size: 12px;
+ }
+ #pt p{
+	width: 380px;
+	margin: 0;
+ }
+ #pt a{
+	color: #222;
+	margin-left: 2px;
+ }
+ .hidden {
+display: none;
+
+}
+ #bodytext a.button{margin-top:20px !important;margin-bottom:20px !important}
+#bodytext img{-moz-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;border-radius: 3px;border-style:solid!important;border-width:1px!important;box-shadow:0 0 5px #FFF,0px 0 5px #FFF,0px 0 5px #FFF}
+#bodytext table,#bodytext div table,#bodytext div div table{width:460px!important}
+#bodytext img:hover{-moz-transform:scale(1.2) rotate(0deg);-webkit-transform:scale(1.2) rotate(0deg);position:relative}
+.col-b3{width:180px}
+.content-box{padding:10px}
+.box{margin-bottom:1em;width:100%}
+.box2{height:1%;width:100%}
+.box-border{border:1px solid #dadada}
+.box-inside{background:#ededed;border:1px solid #fff;padding:8px}
+.box-inside .box-border{background:#fff}
+.clearfix:after,.container:after{clear:both;content:"?020";display:block;height:0;overflow:hidden;visibility:hidden}
+.clear{clear:both}
+.fr{float:right}
+.clearfix,.container,.sideon{display:block}
+
+
+
+
+
+
+
+
+/*** Tooltip ***/
+#tooltip{
+	background:#FFFFFF;
+	border:1px #CCCCCC solid;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	padding:8px 9px 8px 9px;
+	position:absolute;
+	z-index:3000; 
+}
+#tooltip.tooltip_content .title{
+	color:#e97d13;
+	font-size:16px;
+	font-weight:bold;
+	overflow:hidden;
+	margin-bottom:10px;
+	text-align:center;
+}
+#tooltip.tooltip_content .content, #tooltip.tooltip_content .content *{
+	line-height:150%;
+}
+#tooltip.tooltip_picture .name{
+	color:#e97d13;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#tooltip.tooltip_picture .content{
+	margin-bottom:5px;
+}
+#tooltip.tooltip_picture .picture{
+	text-align:center;
+	 border-radius: 3px 3px 3px 3px;
+	 width: 300px;
+}
+#tooltip.tooltip_product .margin{
+	margin-bottom:5px;
+}
+#tooltip.tooltip_product .city b{
+	color:#003399;
+	font-weight:normal;
+}
+#tooltip.tooltip_product .city .suggest{
+	color:#FF0000;
+	font-family:Tahoma;
+}
+#tooltip.tooltip_product .quality b{
+	color:#003399;
+}
+#tooltip.tooltip_product .company{
+	color:#003399;
+	margin-bottom:5px;
+}
+#tooltip.tooltip_product .estore{
+	color:#003399;
+}
+#tooltip.tooltip_product .teaser{
+	font-size:11px;
+}
+#tooltip.tooltip_review .picture, #tooltip.tooltip_product .picture, #tooltip.tooltip_product .picture_only{
+	text-align:center;
+}
+#tooltip.tooltip_review .name, #tooltip.tooltip_product .name{
+	color:#e97d13;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#tooltip.tooltip_review .picture, #tooltip.tooltip_product .picture{
+	margin-bottom:10px;
+}
+#tooltip.tooltip_review .content, #tooltip.tooltip_product .content{
+	margin-bottom:3px;
+	text-align: justify;
+	line-height: 16px;
+}
+
+.domTTOverlib{
+	background:#FFFFFF;
+	border:1px #CCCCCC solid;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	padding:8px 9px 8px 9px;
+}
+.domTTOverlib a{
+	color:#003399;
+}
+.domTTOverlib a:hover{
+	color:#e97d13;
+}
+/*-- End Tooltip --*/

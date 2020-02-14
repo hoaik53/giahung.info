@@ -1,0 +1,10 @@
+Dách mục bài viết
+
+Tiêu đề-title-text-60-none-no-none-none
+Nhóm bài viết-category-select-none-none-no-articles_cat.name-articles_cat.id
+Nội dung-content-textarea-none-none-yes-none-none
+Hình ảnh-image-imageonserver-60-none-yes-none-none
+Ngày đăng-log-time-none-none-yes-none-none
+Cấp độ-level-select-none-none-no-level.name-level.level
+Trạng thái-active-select-none-none-no-active.status-active.id
+Ngôn ngữ-lang-select-none-none-no-languages.code-languages.id

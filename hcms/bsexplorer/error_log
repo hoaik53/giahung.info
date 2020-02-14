@@ -1,0 +1,44 @@
+[25-Mar-2012 18:05:08] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[25-Mar-2012 18:05:08] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[25-Mar-2012 18:05:37] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/core/browser.php on line 399
+[25-Mar-2012 18:05:37] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/core/browser.php on line 399
+[25-Mar-2012 18:06:20] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/core/browser.php on line 399
+[25-Mar-2012 18:06:42] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/tpl/tpl_javascript.php on line 49
+[25-Mar-2012 18:26:36] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 77824 bytes) in /home/muanhieu/public_html/adcms/bsexplorer/tpl/tpl_javascript.php on line 49
+[02-Apr-2012 07:01:43] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[02-Apr-2012 07:03:10] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[02-Apr-2012 07:03:12] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[02-Apr-2012 07:03:14] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[07-Apr-2012 11:26:28] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 4864 bytes) in /home/linhchi/public_html/adcms/bsexplorer/lib/class_gd.php on line 329
+[07-Apr-2012 11:26:38] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 4864 bytes) in /home/linhchi/public_html/adcms/bsexplorer/lib/class_gd.php on line 351
+[07-Apr-2012 11:26:43] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/tpl/tpl_javascript.php on line 49
+[07-Apr-2012 11:26:52] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[07-Apr-2012 11:26:58] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/linhchi/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:14:33] PHP Fatal error:  out of dynamic memory in yy_create_buffer() in Unknown on line 0
+[17-Aug-2012 19:14:33] PHP Fatal error:  out of dynamic memory in yy_create_buffer() in Unknown on line 0
+[17-Aug-2012 19:14:33] PHP Fatal error:  out of dynamic memory in yy_create_buffer() in Unknown on line 0
+[17-Aug-2012 19:14:33] PHP Fatal error:  out of dynamic memory in yy_create_buffer() in Unknown on line 0
+[17-Aug-2012 19:14:33] PHP Fatal error:  out of dynamic memory in yy_create_buffer() in Unknown on line 0
+[17-Aug-2012 19:15:11] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:15:26] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/browser.php on line 399
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:31] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
+[17-Aug-2012 19:19:32] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 77824 bytes) in /home/giayhaia/public_html/adcms/bsexplorer/core/uploader.php on line 337
